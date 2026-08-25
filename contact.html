@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="light" lang="fr">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Contact - Botanica</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&amp;display=swap" rel="stylesheet"/>
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Tailwind Config -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "on-error-container": "#93000a",
+                        "surface-container-highest": "#d3e4fe",
+                        "on-error": "#ffffff",
+                        "surface-container-low": "#eff4ff",
+                        "secondary-fixed": "#6dfe9c",
+                        "primary": "#002d1d",
+                        "on-primary-fixed-variant": "#264e3d",
+                        "tertiary": "#401b1b",
+                        "on-secondary-container": "#007439",
+                        "tertiary-container": "#5a302f",
+                        "outline-variant": "#c1c8c2",
+                        "inverse-surface": "#213145",
+                        "primary-container": "#1a4332",
+                        "secondary": "#006d36",
+                        "surface-container-lowest": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-variant": "#d3e4fe",
+                        "on-secondary-fixed": "#00210c",
+                        "error-container": "#ffdad6",
+                        "surface": "#f8f9ff",
+                        "background": "#f8f9ff",
+                        "on-background": "#0b1c30",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#0b1c30",
+                        "surface-dim": "#cbdbf5",
+                        "on-tertiary-container": "#d29895",
+                        "tertiary-fixed": "#ffdad8",
+                        "primary-fixed-dim": "#a4d0b9",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#e5eeff",
+                        "outline": "#717973",
+                        "on-tertiary-fixed-variant": "#673a39",
+                        "inverse-on-surface": "#eaf1ff",
+                        "secondary-container": "#6dfe9c",
+                        "on-tertiary-fixed": "#331111",
+                        "tertiary-fixed-dim": "#f5b7b4",
+                        "inverse-primary": "#a4d0b9",
+                        "surface-bright": "#f8f9ff",
+                        "on-primary-fixed": "#002114",
+                        "secondary-fixed-dim": "#4de082",
+                        "on-primary": "#ffffff",
+                        "on-secondary-fixed-variant": "#005227",
+                        "on-primary-container": "#85af99",
+                        "on-surface-variant": "#414944",
+                        "primary-fixed": "#c0edd4",
+                        "surface-tint": "#3e6654",
+                        "surface-container-high": "#dce9ff"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    spacing: {
+                        "margin-desktop": "2.5rem",
+                        "container-max": "1280px",
+                        "margin-mobile": "1rem",
+                        "base": "4px",
+                        "gutter": "1.5rem"
+                    },
+                    fontFamily: {
+                        "label-md": ["Inter"],
+                        "headline-lg-mobile": ["\"Source Serif 4\""],
+                        "headline-lg": ["\"Source Serif 4\""],
+                        "display-lg": ["\"Source Serif 4\""],
+                        "body-lg": ["Inter"],
+                        "headline-md": ["\"Source Serif 4\""],
+                        "body-md": ["Inter"]
+                    },
+                    fontSize: {
+                        "label-md": ["14px", { lineHeight: "1.2", letterSpacing: "0.05em", fontWeight: "600" }],
+                        "headline-lg-mobile": ["28px", { lineHeight: "1.2", fontWeight: "600" }],
+                        "headline-lg": ["32px", { lineHeight: "1.2", fontWeight: "600" }],
+                        "display-lg": ["48px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "700" }],
+                        "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+                        "headline-md": ["24px", { lineHeight: "1.3", fontWeight: "500" }],
+                        "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="/src/css/style.css"/>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased pt-20">
+<!-- TopNavBar -->
+<header class="bg-surface text-primary border-b border-outline-variant fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto h-20">
+    <a href="index.html" class="text-headline-md font-headline-md font-bold text-primary">Botanica</a>
+    <nav class="hidden md:flex gap-8">
+        <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="boutique.html">Nos Fleurs</a>
+        <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="boutique.html">Boutique</a>
+        <a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-200" href="index.html">Le Jardin</a>
+        <a class="text-primary font-bold border-b-2 border-primary pb-1 hover:text-primary transition-colors duration-200" href="contact.html">Contact</a>
+    </nav>
+    <div class="flex gap-4 items-center">
+        <button aria-label="Changer le thème" class="scale-95 active:opacity-80 transition-all text-primary hover:text-primary">
+            <span class="material-symbols-outlined">contrast</span>
+        </button>
+        <button aria-label="Voir le panier" class="scale-95 active:opacity-80 transition-all text-primary hover:text-primary">
+            <span class="material-symbols-outlined">shopping_cart</span>
+        </button>
+        <button aria-label="Compte utilisateur" class="scale-95 active:opacity-80 transition-all text-primary hover:text-primary">
+            <span class="material-symbols-outlined">account_circle</span>
+        </button>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main>
+    <!-- Hero Section -->
+    <section class="relative w-full h-[40vh] min-h-[300px] flex items-center justify-center">
+        <div class="absolute inset-0 w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC-6dntUqnpKmNt883hamOZEm3WtMTeg3fTkdxMoJDAxR1b1jC1hUUuEGoNIuMyUMft4hZi1Ha3vloaH52gfk803orvPfIIAVFUqXIthAD0mzUZs6UcnR5VI2pLuV2lY_DjO-CABAM5n27WmhMxRk0q5qlazBQnZSnuk_-s1krWDkkX4mKKGBMNG7X_Ph_WOX4uXFI5iZhpfBHptt-JQVrXlD5c57assYyrzB9DCD1HoUffopabi9pA')"></div>
+        <div class="absolute inset-0 bg-primary/40 mix-blend-multiply"></div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="font-display-lg text-display-lg text-on-primary mb-4">Contact</h1>
+            <p class="font-body-lg text-body-lg text-surface-container-highest max-w-2xl mx-auto">Cultivons le dialogue. Laissez-nous un message ou venez nous rendre visite au cœur de la serre.</p>
+        </div>
+    </section>
+
+    <!-- Content Grid -->
+    <section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+            <!-- Info & Map (Left Column) -->
+            <div class="md:col-span-5 flex flex-col gap-12">
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h2 class="font-headline-lg text-headline-lg text-primary mb-6 hidden md:block">Informations</h2>
+                        <h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mb-6 md:hidden">Informations</h2>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-8">Notre équipe d'horticulteurs et d'archivistes est à votre disposition pour toute question concernant nos collections ou nos services.</p>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-secondary mt-1">location_on</span>
+                        <div>
+                            <h3 class="font-label-md text-label-md text-on-surface mb-1">Adresse</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant">14 Rue de la Flore Ancienne<br/>75005 Paris, France</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-secondary mt-1">schedule</span>
+                        <div>
+                            <h3 class="font-label-md text-label-md text-on-surface mb-1">Horaires d'ouverture</h3>
+                            <p class="font-body-md text-body-md text-on-surface-variant">Lundi - Vendredi : 09h00 - 18h00<br/>Samedi - Dimanche : 10h00 - 17h00</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <span class="material-symbols-outlined text-secondary mt-1">mail</span>
+                        <div>
+                            <h3 class="font-label-md text-label-md text-on-surface mb-1">Email</h3>
+                            <a href="mailto:archives@botanica.fr" class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors">archives@botanica.fr</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Map Area -->
+                <div class="w-full h-64 rounded-xl overflow-hidden border border-outline-variant/30 shadow-[0_4px_24px_rgba(26,67,50,0.04)]">
+                    <img alt="Carte Paris, France" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa4wmxVEoOqxA966q4RNjkrUoZDFGRnpOEpGfHVLn1SvC4gn0ZEU95FE0zg_3-Vt4qkQg9GA96g0iNeADeU-NMAMz47h3mkWWKX3fSk6eXo2ZBm24p4Yw0s_JXq9Qf2vvrjthS8mFu6oEwWqIgYrGDmIDuuU31GSgN4oULkv8t6kZdwWZkNcoS_vpmaPlkEKFZ5x73dLWZ0pRUPEart6qG_S0w580rOBEVISYEHpo8y_pUGkDwSngI"/>
+                </div>
+            </div>
+
+            <!-- Contact Form (Right Column) -->
+            <div class="md:col-span-7 bg-surface-container rounded-xl p-8 md:p-12 border border-outline-variant/50 shadow-[0_8px_32px_rgba(26,67,50,0.06)] relative overflow-hidden">
+                <!-- Decorative abstract floral silhouette -->
+                <div class="absolute -bottom-24 -right-24 opacity-5 pointer-events-none w-96 h-96" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC4YBwYMeTDqrIcbXcoRP3lORNrP7XoEuJ1UhLpHeALnwJDH4vrJeAlUItdQtASnEHRLOU1Tsz9ywf9ImNr_qZmn1DgXJpHMyKbYZX6PioA6dBtF0MnYUBA00EV_k69Seij2yP0fmi3_oX9K8-MHNzRqgg1SXFKIkNSpp6yXHuaf5MwlOzbITYK4lExgqa1hwmNDhxu2ib16dlM68el-ooyJWn4_H1BuUS2vzjMcxdLvqi2komQIASM')"></div>
+                <h2 class="font-headline-md text-headline-md text-primary mb-8 relative z-10">Envoyez-nous un message</h2>
+                <form class="flex flex-col gap-6 relative z-10">
+                    <div class="flex flex-col gap-2">
+                        <label class="font-label-md text-label-md text-on-surface" for="nom">Nom complet</label>
+                        <input required class="archive-input bg-surface w-full px-4 py-3 font-body-md text-on-surface" id="nom" placeholder="Votre nom" type="text"/>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="font-label-md text-label-md text-on-surface" for="email">Adresse email</label>
+                        <input required class="archive-input bg-surface w-full px-4 py-3 font-body-md text-on-surface" id="email" placeholder="vous@exemple.com" type="email"/>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="font-label-md text-label-md text-on-surface" for="sujet">Sujet (Optionnel)</label>
+                        <input class="archive-input bg-surface w-full px-4 py-3 font-body-md text-on-surface" id="sujet" placeholder="Sujet de votre message" type="text"/>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label class="font-label-md text-label-md text-on-surface" for="message">Message</label>
+                        <textarea required class="archive-input bg-surface w-full px-4 py-3 font-body-md text-on-surface resize-y" id="message" placeholder="Comment pouvons-nous vous aider ?" rows="5"></textarea>
+                    </div>
+                    <button class="mt-4 bg-primary text-on-primary font-label-md text-label-md py-4 px-8 rounded-DEFAULT hover:bg-primary-container transition-colors duration-300 w-full md:w-auto self-start flex items-center justify-center gap-2" type="submit">
+                        Envoyer le message
+                        <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-surface-container w-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-12 grid grid-cols-1 md:grid-cols-4 gap-gutter border-t border-outline-variant/30">
+    <div class="col-span-1 flex flex-col gap-4">
+        <a href="index.html" class="text-headline-md font-headline-md font-bold text-primary">Botanica</a>
+        <span class="text-body-md font-body-md text-on-surface-variant">© 2024 Botanica Archive. All rights reserved.</span>
+    </div>
+    <div class="col-span-1 md:col-span-3 flex flex-wrap gap-x-8 gap-y-4 md:justify-end items-center">
+        <a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary transition-colors opacity-90 hover:opacity-100" href="#">Instagram</a>
+        <a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary transition-colors opacity-90 hover:opacity-100" href="#">Pinterest</a>
+        <a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary transition-colors opacity-90 hover:opacity-100" href="#">Newsletter</a>
+        <a class="text-primary underline text-label-md font-label-md hover:text-secondary transition-colors opacity-90 hover:opacity-100" href="contact.html">Contact Us</a>
+        <a class="text-on-surface-variant text-label-md font-label-md hover:text-secondary transition-colors opacity-90 hover:opacity-100" href="#">Privacy Policy</a>
+    </div>
+</footer>
+
+<script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

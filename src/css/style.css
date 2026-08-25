@@ -1,0 +1,48 @@
+/* Google Fonts & Material Symbols imports are loaded in head */
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom Ambient Shadow for Cards */
+.ambient-shadow {
+    box-shadow: 0 10px 40px -10px rgba(26, 67, 50, 0.08);
+}
+
+/* Elegant minimal archive input styling */
+.archive-input {
+    border: 1px solid transparent;
+    border-bottom-color: #c1c8c2;
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.archive-input:focus {
+    border-color: #717973;
+    outline: none;
+    box-shadow: none;
+}
+
+/* Toast notification */
+.toast-notification {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #002d1d;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 30px rgba(0, 45, 29, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    z-index: 100;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast-notification.show {
+    transform: translateY(0);
+    opacity: 1;
+}

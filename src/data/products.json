@@ -1,0 +1,106 @@
+[
+  {
+    "id": "orchidee-imperiale",
+    "name": "Orchidée Impériale",
+    "latinName": "Phalaenopsis regalis",
+    "category": "Plante d'intérieur",
+    "tag": "Exotique",
+    "price": 85.00,
+    "description": "L'Orchidée Impériale (Phalaenopsis regalis) est une pièce maîtresse de notre collection d'archives. Reconnue pour ses tiges gracieuses et ses floraisons spectaculaires de longue durée, elle apporte une touche de sophistication botanique à tout espace moderne. Cultivée avec soin dans nos serres.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAarPAYRQvCIlrvDERJix2y2QQPrr8fUEegmhc0XWHs5VK_w_Pt51JEIszhEIgs6k9-ttiuWoE73E6i44KS6ujtuAUvci_PaFHnpO4c0Z6t2BaHzH0LMpxTaTkbrfGliXG41ki1cgc4O-UlfY6JEkNtQSFlqaYWsKNDjln4rq4gDwoQLHBL-y8Qs7c3-_Q5grmB8qHROs45gQ92Ht2QziAnGgC4VmDT7ww8B8eHKsSbO7UA6PrNI45W",
+    "care": {
+      "watering": "Baigner la base une fois par semaine pendant 10 minutes. Laisser complètement égoutter avant de replacer dans le cache-pot.",
+      "light": "Préfère une lumière vive mais indirecte. Éviter l'exposition directe aux rayons du soleil de l'après-midi pour ne pas brûler le feuillage."
+    }
+  },
+  {
+    "id": "rose-classique",
+    "name": "Rose Classique",
+    "latinName": "Rosa gallica",
+    "category": "Extérieur",
+    "tag": "Perennial",
+    "price": 45.00,
+    "description": "Rouge vif, parfum intense.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDriaIcmvRXAvijCKS0_lO4yDOKSscjBXSy7k7oin5bCVmlS6ua896Wd7dRWkjeKsGYIpcFZiYf8UfUDVq8aaTfjjwceMoAakzMNz4zdD5k7IO0AtmUPw1_3WK0KA9DFnYT2nZtSoAV0TeAlfAR8ahD1P5JSL0fqD_2jsNsJpZuIElZB7udZF-KBY0hmsJrfRcVy0Z_XYeAzgJcwcs1ZG0QM-hY6Ku4UNFHy5Bc7iiiHbkf12BF1MtA"
+  },
+  {
+    "id": "tulipe-imperiale",
+    "name": "Tulipe Impériale",
+    "latinName": "Tulipa gesneriana",
+    "category": "Extérieur",
+    "tag": "Bulbe",
+    "price": 28.00,
+    "description": "Jaune éclatant, tige robuste.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAdpDOfmPDcaQ55fl_Nagd0Ak9iCcBhse0LExcZYdiD6G2AMZ7PQTS3iyjpur2jwS7mSjCvv7dEx2umAmGHfbsNP3k26c8tqrN1Ytub0DaIRO9k-SmDXJoyMoFhGed1CbJR8dtum6ZruYwIL-1Ni2mc_UCIB0JDE540UeQl1eKk0VSl2tZ05eHiVKPJFbPWKeMLthELm9e5OLLd9ERwMSzVRekXfv3sSPUIflmb4wAkBldVbZUZux-F"
+  },
+  {
+    "id": "orchidee-royale",
+    "name": "Orchidée Royale",
+    "latinName": "Phalaenopsis regalis",
+    "category": "Intérieur",
+    "tag": "Exotique",
+    "price": 65.00,
+    "description": "Violet profond, longue floraison.",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBPoQdtAWiylaEs4SV4ro9XfCG8bn4_RvLz9DkezCU_ttVQOpz7JUtFzVslINzPhs0YjznkaZDAg0t8HhahsQgE4I4X5e4Oc6flwvAikcBi-R9gppsDFzLTJXI5z_2P6CGwdZycU82whHIdcAgc2MOQe0n0gQmBp_g_YISd3ZyECzA-RZVzhdBBAQW3oSDlLj5HlP-tAXtSUmjVgqPgW9DDeO8YKX2LtCACyBhuL2Z6NcZi8SbKhdgZ"
+  },
+  {
+    "id": "lotus-sacre",
+    "name": "Lotus Sacré",
+    "latinName": "Nelumbo nucifera",
+    "category": "Extérieur",
+    "tag": "Aquatique",
+    "price": 34.00,
+    "description": "Nelumbo nucifera",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAMUJyNWl6uQlKbsbDnpTI7LEypCDR6aXTDb7HRCv0XMjx-Nab5kv22ELXfbIDK40eDBFui5CYQ3ffPJxCaCp5OzU5hS6FtnkEcCXr2jykfSStK1iGXuc6KUp5-FOKSUveln4s-ZNHewsG7apTVULzxOMuz5wcB7z1rlbYhGLSvQzkJVzjGI0RBAMMAVmlbO4glaklHGKJwsqhlbsgqPl2B6aTlcvxX04IKHLWEAdJ63IRh7WDJhKOl"
+  },
+  {
+    "id": "rose-ancienne",
+    "name": "Rose Ancienne",
+    "latinName": "Rosa centifolia",
+    "category": "Extérieur",
+    "tag": "Extérieur",
+    "price": 28.50,
+    "description": "Rosa centifolia",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDUPlT5o2z2CxcgRisTQvOjFB46rvfvCP_5q33LNCeaiF6e3OCg_kERcJQhxr874QqdDujnQSvtb2DpEYP_1vFP-i2HskV2KH7IWlP6VMR4dg6vY2ZkUfTZqVQEdrWzbmJ087_l3FooQnFZ8ey6EBKljUBsWmqgSJ7gylNyt8SqqCoNTX8h5OR2lOK4LemlteEnK4dranATryNlvfJYWsbZf20p8bmx1_SjXXH_BYgVtXOoe93IGK9D"
+  },
+  {
+    "id": "tulipe-royale",
+    "name": "Tulipe Royale",
+    "latinName": "Tulipa gesneriana",
+    "category": "Extérieur",
+    "tag": "Bulbe",
+    "price": 15.00,
+    "description": "Tulipa gesneriana",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBKV7sOAMRGYfaQtCJa0ZMousxkDw06nhR77qjdTK6dUm6_UjFRPWL3FslPGfN61Uq2cDZfn---eVduZFUsjb8ie55jnnJe1ZdZUcQWM87jBGWi4GHaPW2mF_np51Xxim8tPGytg8Low1YiWcEykiwLE8sa7OM4w_KST-ATqlopwC8GpC0D-xWn5SDOeIbzE638VXJuzV2w3dwgE073cypNhQuwNB2rCKkbziKZrIIvYFZ4jQmmHXMa"
+  },
+  {
+    "id": "lys-blanc-royal",
+    "name": "Lys Blanc Royal",
+    "latinName": "Lilium candidum",
+    "category": "Plante à bulbe",
+    "tag": "Bulbe",
+    "price": 45.00,
+    "description": "Plante à bulbe",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCW1EdgoJcjZuaR4gjGsq6ZfTP_YyTQDWrMRO7Ab5MI6B-93D2zjqCK021JE3d4zJWOnekEJetbyGLcWionBTiv5qU-BXopMLjn6VnHqC5YiND9ZPPCYQDhVFeRqCVTFJNkXs1atU9P5zVZTAlnGnYpwCWlInSet0ayWl0UMNPBZ-qGBiG7ffOZGe5Q6Xkgg99-jaQLI6LoJYKGvPZgptAz-BphLoboVhYEH_CdoahEXwqz_Z2v6xFI"
+  },
+  {
+    "id": "rose-de-porcelaine",
+    "name": "Rose de Porcelaine",
+    "latinName": "Etlingera elatior",
+    "category": "Fleur tropicale",
+    "tag": "Exotique",
+    "price": 60.00,
+    "description": "Fleur tropicale",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCEiEjA1RfVzcxYNe_tsGw9AoHqu2Cmm4BLeeTnwh5nJZf6OrK_d6Whdm3VU65NHJC_TIktCkon-z0FcQPAdRpLVi_6EKzYhWCP3faozQJAjjneZdi12sBTEEVLroJSVKh5-mmxRVUZaV1mnSGsJbj0WyhiUQ8b0LeYtWl3JajOgc-cg669ImvGD2qu-t4K1f2j23LdKpe92jtxfEuHMlf2KYzAYF4KDl3RnCpoOm0pmCzv_Xv-umRn"
+  },
+  {
+    "id": "fougere-de-boston",
+    "name": "Fougère de Boston",
+    "latinName": "Nephrolepis exaltata",
+    "category": "Plante verte",
+    "tag": "Intérieur",
+    "price": 35.00,
+    "description": "Plante verte",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB467TO-K-m-svzGhFU_OCff5WAgwmYcqIaSM-s6oELA4VDzDbffMDEL4FZbUlHiIGe-h5p8iyqPMei4zWTnBD9y7ZtE1ZM0fhw_2kqZu4LEcBFFeLyBdopzQZHvwcXuGRGFT6ZboJPQhqKRPuaIenrPwIDuEFgjLjGocMkWxQwWmbC06yuYOg8qdKJbhy8z4n2cfe-Bz7OOC3JU2Mmp0Tzuyv3kHnurx1KRfKKf4IE26KG63PrTElF"
+  }
+]
